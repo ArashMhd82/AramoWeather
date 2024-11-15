@@ -3,10 +3,11 @@ import React, { useState, useEffect } from 'react';
 import windImg from '../../src/assets/img/Windy/Windy (2).jpg';  
 import sunImg from '../../src/assets/img/Sunny/Sunny (13).jpg';  
 import snowImg from '../../src/assets/img/Snowy/Snow (17).jpg';  
-import rainImg from '../../src/assets/img/Rainy/Raining (13).jpg';  
+import rainImg from '../../src/assets/img/Rainy/Raining (9).jpg';  
 import cloudImg from '../../src/assets/img/Cloudy/Cloud (7).jpg';  
 import fogImg from '../../src/assets/img/Foggy/foggy (7).jpg';  
-import thounderImg from '../../src/assets/img/Stormy/Storm (2).jpg';  
+import thounderImg from '../../src/assets/img/Stormy/Storm (2).jpg';
+import tornadoImg from '../../src/assets/img/tornado/Tornado (2).jpg';
 
 const bgImgList = {  
   'Thunderstorm': thounderImg,  
@@ -23,7 +24,7 @@ const bgImgList = {
   'Fog': fogImg,  
   'Ash': fogImg,  
   'Squall': fogImg,  
-  'Tornado': fogImg  
+  'Tornado': tornadoImg  
 };  
 
 const BgImgComp = (props) => {  
